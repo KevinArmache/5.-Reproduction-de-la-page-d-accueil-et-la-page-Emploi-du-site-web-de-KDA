@@ -29,6 +29,7 @@ nav {
 	width: 100%;
 	background-color: #d92950;
 	position: fixed;
+	z-index: 1;
 }
 
 #LogoEmplacement {
@@ -112,7 +113,7 @@ li {
 
 #PARTIEBESOINDE > h1 {
 	font-family: MontserratBlack;
-	padding-top: 150px;
+	padding-top: 200px;
 	text-align: center;
 	color: white;
 	font-size: 5.5vw;
@@ -170,7 +171,7 @@ li {
 #PARTIEBESOINDE > p {
 	color: white;
 	font-family: MontserratRegular;
-	font-size: 20px;
+	font-size: 15px;
 	text-align: center;
 	height: 25px;
 	margin: 24px;
@@ -196,28 +197,118 @@ li {
 	background-color: #f1f0f3;
 	width: 100%;
 	height: 100%;
+
+	display: flex;
+	justify-content: space-around;
 }
 
 
-#deuxiemeblock > h1 {
-	float: right;
-	font-family: MontserratBold;
-	margin-right: 55px;
-	font-size: 40px;
-	color: #424345;
+
+#photo-texaf-et-cohorte {
+	
+	width: 45%;
+
 }
 
 #texaf-campus-image{
 	border-radius: 20px;
-	height: 400px;
-	width: 580px;
+	height: 500px;
+	width: 650px;
 	margin: 0 0 0 -100px;
 }
 
 #Kda-cohorte-2021 {
 
-	margin: -200px 0 0 200px;
+	margin: 0 0 -50px -350px;
 	border-radius: 20px;
-	width: 350px;
-	height: 250px;
+	width: 400px;
+	height: 300px;
 }
+
+
+/* partie logo */
+
+
+
+#la-div-des-logos-rouges {
+
+	width: 55%;
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	
+}
+
+#la-div-des-logos-rouges > h1 {
+	font-family: MontserratBold;
+	margin-right: 55px;
+	font-size: 40px;
+	height: 40px;
+	color: #424345;
+	
+}
+
+#la-div-flex-des-logos {
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+#les-deux-logo1  {
+
+	
+	
+}
+
+#les-deux-logo1 > img {
+
+	height: 62px;
+	width: 50px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 160px;
+	margin-top: 50px;
+
+}
+
+#les-deux-logo1 > p {
+
+font-family: MontserratBold;
+color:#383336;
+font-size: 20px;
+text-align: center;
+}
+
+#les-deux-logo1 > img {
+
+	border-bottom: solid 5px #ec5940;
+	padding-bottom: 50px;
+}
+
+
+#les-deux-logo2 > img {
+
+	height: 62px;
+	width: 50px;
+	display: flex;
+	flex-direction: row;
+	margin-left:120px;
+	margin-top: 50px;
+}
+
+#les-deux-logo2 > p {
+
+	font-family: MontserratBold;
+	color:#383336;
+	font-size: 20px;
+	text-align: center;
+	}
+
+#les-deux-logo2 > img {
+
+	border-bottom: solid 5px #ec5940;
+	padding-bottom: 50px;
+}
+
