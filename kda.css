@@ -24,7 +24,15 @@
   	src: url(Roboto/Roboto-Regular.ttf);
 }
 
+@font-face {
+	font-family: RobotoBold;
+  	src: url(Roboto/Roboto-Bold.ttf);
+}
 
+@font-face {
+	font-family: UbuntuMonoRegular;
+  	src: url(Ubuntu_Mono/UbuntuMono-Regular.ttf);
+}
 
 
 /*-- Logo & Menu --*/
@@ -520,20 +528,24 @@ text-align: center;
 /*--4e BLOCK BLANC FIN--*/
 
 
+
+
+/*--5e BLOCK ROUGE DEBUT--*/
+
 #cinquieme-block {
 
-	border: solid;
+
 	width: 100%;
 	height: 100%;
 	background-color: #da4450;
-
+	padding-bottom: 100px;
 
 }
 
 
-#cinquieme-block h1 {
+#cinquieme-block > h1 {
 
-	border: solid black;
+
 	text-align: center;
 	color: white;
 	font-family: MontserratBold;
@@ -542,13 +554,241 @@ text-align: center;
 
 }
 
-
-
-#cinquieme-block div  {
+#cinquieme-block > div {
 
 	display: flex;
 	flex-direction: row;
-	justify-content: space-evenly;
-	margin-top: 100px;
+	justify-content: space-evenly; 
 
 }
+
+#cinquieme-block  div > button {
+
+	border: none;
+	border-radius: 100%;
+	margin-top: 300px;
+	height: 25px;
+	color: #da4450;
+	width: 25px;
+
+}
+
+#cinquieme-block  div > button svg {
+
+	height: 25px;
+	width: 25px;
+
+}
+
+
+.position-photo{
+
+
+	margin-top: 100px;
+	margin-bottom: 100px;
+
+	height: 412px;
+	width: 330px;
+	border-radius: 10px;
+
+}
+
+
+.position-photo > img {
+
+	
+	height: 412px;
+	width: 330px;
+	border-radius: 10px;
+	
+
+}
+
+.position-photo > div > .texte-en-bas-image {
+
+	margin-top: 10px;
+	font-family: MontserratRegular;
+	font-size: 11px;
+	color: white;
+	line-height: 15px;
+	
+}
+
+.image-droite {
+
+	
+	display: flex;
+	color: #da4450;;
+	height: 20px;
+	width: 20px;
+	float: right;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	background-color: white;
+	padding-right: 100px;
+
+	
+	
+}
+
+.image-droite2 {
+
+	
+	display: flex;
+	color: #da4450;;
+	height: 20px;
+	width: 20px;
+	float: right;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	background-color: white;
+	padding-right: 100px;
+
+	
+	
+}
+
+.image-droite3 {
+
+	
+	display: flex;
+	color: #da4450;;
+	height: 20px;
+	width: 20px;
+	float: right;
+	border-top-left-radius: 100px;
+	border-bottom-left-radius: 100px;
+	background-color: white;
+	padding-right: 100px;
+
+	
+	
+}
+
+
+
+.image-droite > img {
+
+	border-radius: 50%;
+	padding-left: 1px;
+
+}
+
+.image-droite2 > img {
+
+	border-radius: 50%;
+	padding-left: 1px;
+
+}
+
+.image-droite3 > img {
+
+	border-radius: 50%;
+	padding-left: 1px;
+
+}
+
+.image-droite > p {
+
+
+	margin-left: 35px;
+	margin-top: 2px;
+	font-family: RobotoRegular;
+	font-size: 11px;
+
+	
+	
+}
+
+.image-droite2 > p {
+
+
+	margin-left: 25px;
+	margin-top: 2px;
+	font-family: RobotoRegular;
+	font-size: 11px;
+
+	
+	
+}
+
+.image-droite3 > p {
+
+
+	margin-left: 20px;
+	margin-top: 2px;
+	font-family: RobotoRegular;
+	font-size: 11px;
+
+	
+	
+}
+
+
+
+.position-photo > div > .texte-en-bas-image > a {
+
+	font-family: MontserratRegular;
+	font-size: 11px;
+	color: white;
+	text-decoration: none;
+	
+}
+
+/*  */
+
+.image-miniscule {
+
+	font-family: UbuntuMonoRegular;
+	height: 26px;
+	width: 330px;
+	background-color: #ef4c59;
+	padding: 5px;
+	margin-top: 15px;
+	color: white;
+	font-size: 11px;
+	display: flex;
+	align-items: center;
+
+}
+
+.image-miniscule > img {
+
+	
+	height: 10px;
+	width: 10px;
+
+
+}
+
+.image-miniscule2 {
+
+	font-family: UbuntuMonoRegular;
+	height: 26px;
+	width: 330px;
+	background-color: #ef4c59;
+	padding: 5px;
+	margin-top: 20px;
+	color: white;
+	font-size: 11px;
+	display: flex;
+	align-items: center;
+
+
+}
+
+.image-miniscule2 > img {
+
+	
+	height: 10px;
+	width: 10px;
+
+
+}
+
+
+
+/*--5e BLOCK ROUGE FIN--*/
+
+
+/*--6e BLOCK BLANC DEBUT--*/
