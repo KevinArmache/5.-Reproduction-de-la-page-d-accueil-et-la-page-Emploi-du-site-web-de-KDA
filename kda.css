@@ -792,3 +792,98 @@ text-align: center;
 
 
 /*--6e BLOCK BLANC DEBUT--*/
+
+#sixieme-block {
+
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	padding-bottom: 100px;
+
+}
+
+#sixieme-block > h1 {
+
+	text-align: center;
+ 	font-size: 40px;
+	font-family: MontserratBold;
+	color: #424345;
+	margin-top: 100px;
+	padding-bottom: 100px;
+	border: solid;
+
+}
+
+#sixieme-block > div {
+
+	border: solid;
+	display: flex;
+	justify-content: space-around;
+	font-size: 28px;
+	font-family: MontserratBold;
+
+	
+	}
+
+#sixieme-block  div > #premier-block {
+
+	background-color: #da4450;
+	color: white;
+	border: solid;
+	width: 60%;
+
+}
+
+#premier-block > h3 {
+
+	padding: 12px 20px;
+
+}
+
+#sixieme-block  div > #deuxieme-block {
+
+	background-color: #331f40;
+	color: white;
+	border: solid;
+	width: 30%;
+
+}
+
+#deuxieme-block > h3 {
+
+	padding: 12px 20px;
+
+}
+
+#interieur-premier-block {
+
+	border: solid;
+}
+
+#row1 {
+	padding: 20px;
+	background-color: #dfebf3;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+row1 > div {
+
+	height: 92px;
+	width: 155px;
+
+}
+
+
+.image-et-text > img{
+
+		margin-left: 50%;
+		transform: translate(-50%);
+		height: 45px;
+		width: 45px;
+
+}
+
+
+
