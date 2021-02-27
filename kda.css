@@ -1113,9 +1113,99 @@ margin-right: 50px;
 	transform: translateX(-50%);
 	text-decoration: none;
 	border-radius: 15px;
+}
+
+/* 8e BLOCK BLANC DEBUT */
 
 
 
+#huitieme-block {
+
+	background-color: #f1f0f3;
+	height: 100%;
+	width: 100%;
+	border: solid black;
+}
+
+#main-8e-block {
+
+	display: flex;
+	justify-content: space-evenly;
+	padding-top: 100px;
+}
+
+#main-8e-block > div > h1 {
+
+	font-size: 40px;
+	color: 	#424345;
+	
+}
+
+
+#main-8e-block > div > h1 > span {
+
+	color: 	#da4450
+}
+
+
+
+#partie-gauche {
+
+	padding: 0px 15px;
+	border: solid;
+	height: 650px;
+	width: 600px;
+	font-family: MontserratBold;
+	
 
 }
 
+#partie-gauche > p {
+
+	font-family: MontserratRegular;
+	font-size: 16px;
+	line-height: 24px;
+	padding-top: 50px;
+	color: #464a4e;
+}
+
+#partie-gauche > img {
+
+	height: 210px;
+	width: 570px;
+	padding-top: 50px;
+}
+
+
+#partie-droite {
+	
+	display: flex;
+	flex-direction: row;
+	
+
+}
+
+.boite1 {
+
+	border: solid black;
+	height: 324px;
+	width: 300px;
+}
+
+.boite2 {
+
+	border: solid black;
+	height: 324px;
+	width: 300px;
+}
+
+
+#contenu-boite {
+
+	height: 300px;
+	width: 270px; 
+	border: solid black;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+}
