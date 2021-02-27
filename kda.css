@@ -830,7 +830,7 @@ text-align: center;
 	background-color: #da4450;
 	color: white;
 	border: solid;
-	width: 60%;
+	width: 50%;
 
 }
 
@@ -845,7 +845,7 @@ text-align: center;
 	background-color: #331f40;
 	color: white;
 	border: solid;
-	width: 30%;
+	width: 40%;
 
 }
 
@@ -860,28 +860,75 @@ text-align: center;
 	border: solid;
 }
 
-#row1 {
-	padding: 20px;
-	background-color: #dfebf3;
+.row {
+	
+	padding: 30px;
+	background-color: #f1f0f3;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	font-size: 20px;
+	font-family: UbuntuMonoRegular;
+	color: #424345;
 }
 
-row1 > div {
-
-	height: 92px;
-	width: 155px;
-
+.row > div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
+.image-et-text > img {
 
-.image-et-text > img{
-
-		margin-left: 50%;
-		transform: translate(-50%);
+		
 		height: 45px;
 		width: 45px;
+
+
+}
+
+.image-et-text2 > img {
+
+
+	height: 45px;
+	width: 45px;
+
+
+}
+
+.image-et-text2 {
+
+margin-right: 15px;
+
+}
+
+.image-et-text3 > img {
+
+
+	height: 45px;
+	width: 45px;
+
+
+}
+
+.image-et-text3 {
+
+margin-right: 25px;
+
+}
+
+.image-et-text4 > img {
+
+
+	height: 45px;
+	width: 45px;
+
+
+}
+
+.image-et-text4 {
+
+margin-right: 50px;
 
 }
 
