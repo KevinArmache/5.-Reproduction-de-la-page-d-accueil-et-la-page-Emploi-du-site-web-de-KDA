@@ -34,6 +34,12 @@
   	src: url(Ubuntu_Mono/UbuntuMono-Regular.ttf);
 }
 
+@font-face {
+	font-family: UbuntuMonoBold;
+  	src: url(Ubuntu_Mono/UbuntuMono-Bold.ttf);
+}
+
+
 
 /*-- Logo & Menu --*/
 
@@ -947,6 +953,7 @@ margin-right: 50px;
 	margin: 40px;padding: 20px;
 	height: 250px;
 	border-radius: 20px;
+	
 
 }
 
@@ -982,5 +989,133 @@ margin-right: 50px;
 
 #septieme-block {
 
+	width: 100%;
+	height: 100%;
+	background-color: #ae3953;
+	padding-bottom: 100px;
 	
 }
+
+#septieme-block div > h1 {
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	font-family: MontserratBold;
+	padding-bottom: 50px;
+}
+
+#div-des-quatres-logos{
+
+	display: flex;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	justify-content: space-evenly;
+	padding-bottom: 150px;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX( -50%);
+}
+
+.block-du-logo {
+	
+}
+
+.block-du-logo > .bordure-image  {
+
+	width: 300px;
+	
+}
+
+#sept-logo {
+	display: flex;
+	flex-direction: row;
+		justify-content: space-evenly;
+}
+
+
+
+.block-du-logo > .bordure-image > div > p {
+	
+	font-family: UbuntuMonoBold;
+	font-size: 25px;
+	padding-top: 30px;
+	color: white;
+	text-align: center;
+	
+}
+
+.bordure {
+	height: 40px;
+	width: 34px;
+	padding: 20px;
+	border: solid 1px white;
+	border-radius: 10px;
+}
+
+.fleche {
+	height: 40px;
+	width: 40px;
+	padding: 20px;
+}
+
+#button-de-fin-sept {
+
+	
+	
+
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+
+}
+
+#button-de-fin-sept > a {
+
+
+	
+	background-color: #da4450;
+	font-family: RobotoRegular;
+	color: white;
+	font-size: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	
+	width: 200px;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+	text-decoration: none;
+	border-radius: 15px;
+	
+
+
+}
+
+#button-de-fin-sept > a:hover {
+
+
+	
+	background-color: #ae3953;
+	font-family: RobotoRegular;
+	color: white;
+	border: solid white;
+	font-size: 20px;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	
+	width: 200px;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+	text-decoration: none;
+	border-radius: 15px;
+
+
+
+
+}
+
