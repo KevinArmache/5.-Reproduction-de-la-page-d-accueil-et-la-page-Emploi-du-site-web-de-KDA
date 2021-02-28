@@ -1124,7 +1124,7 @@ margin-right: 50px;
 	background-color: #f1f0f3;
 	height: 100%;
 	width: 100%;
-	border: solid black;
+
 }
 
 #main-8e-block {
@@ -1152,7 +1152,7 @@ margin-right: 50px;
 #partie-gauche {
 
 	padding: 0px 15px;
-	border: solid;
+
 	height: 650px;
 	width: 600px;
 	font-family: MontserratBold;
@@ -1187,25 +1187,53 @@ margin-right: 50px;
 
 .boite1 {
 
-	border: solid black;
+
 	height: 324px;
 	width: 300px;
 }
 
 .boite2 {
 
-	border: solid black;
+
 	height: 324px;
 	width: 300px;
 }
 
 
-#contenu-boite {
 
-	height: 300px;
-	width: 270px; 
-	border: solid black;
+.contenu-boite {
+
+	height: 260px;
+	width: 230px; 
+
 	margin-left: 50%;
 	position: relative;
 	transform: translateX(-50%);
+	margin-top: 10px;
+	background-color: #ffffff;
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.contenu-boite > img {
+
+	height: 50px;
+	width: 50px;
+}
+
+.contenu-boite > h3 {
+
+	font-family: MontserratBold;
+	font-size: 24px;
+
+	color: #424345;
+}
+
+.contenu-boite > p {
+
+	font-family: MontserratRegular;
+	font-size: 16px;
+	padding-top: 10px;
+	line-height: 24px;
+	color: #424345;
 }
