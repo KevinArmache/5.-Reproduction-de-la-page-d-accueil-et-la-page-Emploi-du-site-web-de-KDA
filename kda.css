@@ -1237,3 +1237,100 @@ margin-right: 50px;
 	line-height: 24px;
 	color: #424345;
 }
+
+
+
+/* 8e BLOCK BLANC FIN */
+
+
+/* 9e BLOCK NOIR DEBUT */
+
+#neuvieme-block {
+
+	height: 100%;
+	width: 100%;
+	background-color: #111111;
+}
+#main-neuvieme-block {
+
+	height: 300px;
+	width: 1230px;
+	padding-top: 100px;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+
+
+}
+
+
+#main-neuvieme-block > h1 {
+
+
+	height: 47px;
+	color: white;
+	font-size: 40px;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 50px;
+	font-family: MontserratBold;
+	
+
+}
+
+#partenaires {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	height: 56px;
+	width: 670px;
+
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+}
+
+
+
+#partenaires > img:nth-child(1) {
+
+
+	height: 20px;
+	width: 112px;
+
+}
+
+#partenaires > img:nth-child(2) {
+
+
+	height: 35px;
+	width: 40px;
+
+}
+
+#partenaires > img:nth-child(3) {
+
+
+	height: 56px;
+	width: 130px;
+
+}
+
+#partenaires > img:nth-child(4) {
+
+
+	height: 36px;
+	width: 56px;
+
+}
+
+#partenaires > img:nth-child(5) {
+
+
+	height: 40px;
+	width: 83px;
+
+}
