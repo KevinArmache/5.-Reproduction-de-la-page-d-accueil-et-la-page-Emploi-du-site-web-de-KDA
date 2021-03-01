@@ -75,13 +75,21 @@ nav {
 	color: white;
 	padding: 5px;
 	list-style-type: none;
-	font-size: 16px;
+	font-size: 20px;
 	font-weight: bold;
 }
 
 #Menu > ul > li:hover {
 	border-bottom: solid 3px #f3506b;
     transition: 1s solid ease;
+}
+
+#Menu > ul > a {
+
+	text-decoration: none;
+	color: white;
+	
+
 }
 
 /* 
@@ -1435,6 +1443,7 @@ margin-right: 50px;
 	height: 100%;
 	background-color: #2d2d2d;
 	padding: 160px 0px 96px;
+	display: flex;
 
 }
 
@@ -1442,26 +1451,32 @@ margin-right: 50px;
 
 	color: white;
 	padding: 0px 15px;
+	width: 50%;
 
 }
 
 #part-gauche > address {
 
-	font-size: 22px;
-	font-family: Roboto, sans-serif;
+	font-size: 25px;
+	font-family: RobotoRegular;
 	height: 229px;
-	width: 570px;
+	width: 650px;
 	line-height: 33px;
+	
+	font-style: normal;
+	margin-left: 20px;
 	
 }
 
 #part-gauche > div > a {
 
 color: #da4347;
-font-size: 22px;
-font-family: Roboto, sans-serif;
+font-size: 25px;
+font-family: RobotoRegular;
 line-height: 33px;
 text-decoration: none;
+margin-left: 20px;
+
 }
 
 
@@ -1469,16 +1484,115 @@ text-decoration: none;
 #part-gauche > div > a:hover {
 
 	color: #da4347;
-	font-size: 22px;
+	font-size: 25px;
 	font-family: Roboto, sans-serif;
 	line-height: 33px;
 	text-decoration: none;
 	border-bottom: solid 3px #da4347;
 	transition: 1s solid ease;	
-	}
-	
-#reseaux-sociaux > a > img {
+	margin-left: 20px;
 
-	color: #da4347;
 	
 }
+
+#reseaux-sociaux {
+
+	padding-top: 50px;
+	
+
+
+}
+
+#part-droite {
+
+	
+	height: 405px;
+	width: 650px;
+}
+
+
+	
+#part-droite > p {
+
+
+	font-size: 22px;
+	line-height: 33px;
+	font-family: MontserratRegular;
+	color: white;
+	padding-bottom: 20px;
+	
+}
+
+#Bold {
+	font-family: MontserratBold;
+}
+
+#adresse-mail {
+
+	display: flex;
+
+}
+
+#adresse-mail > #mail1 > input {
+
+	height: 54px;
+	width: 470px;
+	font-size: 16px;
+}
+
+#adresse-mail > div > input::placeholder {
+
+
+	font-size: 20px;
+	padding-left: 10px;
+}
+
+
+
+#adresse-mail > div > button {
+
+	height: 56px;
+	width: 136px;
+	padding: 15px 15px;
+	font-size: 20px;
+	background-color:#da4450;
+	font-family: RobotoRegular;
+	font-weight: 700;
+	color: white;
+	border: none;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+
+#adresse-mail > div > button:hover {
+
+	height: 56px;
+	width: 136px;
+	padding: 15px 15px;
+	font-size: 20px;
+	font-family: RobotoRegular;
+	font-weight: 700;
+	color: rgba(24,0,39,.87);
+	
+	background-color: #2d2d2d;;
+	border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+
+}
+
+
+#button1 {
+	margin-top: 1px;
+}
+
+#part-droite > a {
+
+	font-size: 20px;
+	font-family: MontserratBold;
+	color: white;
+	text-decoration: none;
+
+}
+
+/* 11e BLOCK NOIR FIN */
