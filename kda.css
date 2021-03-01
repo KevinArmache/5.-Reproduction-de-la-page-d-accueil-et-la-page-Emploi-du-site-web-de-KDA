@@ -1596,3 +1596,223 @@ margin-left: 20px;
 }
 
 /* 11e BLOCK NOIR FIN */
+
+
+/* EMPLOIS - PART 1 DEBUT */
+
+#premiere-partie1 {
+
+	height: 100%;
+	width: 100%;
+
+
+}
+
+#emploi-les-deux-parties {
+
+	display: flex;
+	justify-content: space-evenly;
+	padding-bottom: 100px;
+}
+
+#premiere-partie1 > h1 {
+
+	font-family: MontserratBold;
+	font-size: 40px;
+	color: black;
+	padding-top: 150px;
+	text-align: center;
+	padding-bottom: 100px;
+
+}
+
+#emploi-part-gauche {
+
+	background-color: #f1f0f3;
+	
+	padding: 32px;
+	height: 1050px;
+	width: 500px;
+	border-radius: 20px;
+}
+
+#emploi-part-gauche > h2 {
+
+	font-family: MontserratBold;
+	font-size: 48px;
+	padding-bottom: 50px;
+}
+
+#emploi-part-gauche > p {
+
+	font-family: MontserratRegular;
+	font-size: 16px;
+	color: #424345;
+	line-height: 24px;
+}
+
+#emploi-part-gauche > h3 {
+
+	font-family: MontserratBold;
+	font-size: 28px;
+
+
+}
+
+#emploi-part-gauche > ul {
+
+	padding: 0 0 0 40px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #424345;
+	font-family: MontserratRegular;
+
+}
+
+#Plus-de-details {
+
+	font-family: MontserratBold !important;
+	font-size: 16px;
+	color: #da4450 !important;
+
+}
+
+#mailtothomas {
+
+	height: 81px;
+	width: 506px;
+	background-color:#da4450;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+	font-family: MontserratBold;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+	color: white;
+	
+
+}
+
+#mailtothomas:hover {
+
+	height: 81px;
+	width: 506px;
+	background-color:#f1f0f3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+	font-family: MontserratBold;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+	color: black;
+	border: solid 2px #da4450;
+	
+
+}
+
+
+
+
+
+/* */
+
+#emploi-part-droite {
+
+	background-color: #f1f0f3;
+	padding: 32px;
+	height: 1050px;
+	width: 500px;
+	border-radius: 20px;
+}
+
+#emploi-part-droite > h2 {
+
+	font-family: MontserratBold;
+	font-size: 48px;
+	padding-bottom: 50px;
+	
+}
+
+
+
+
+#emploi-part-droite > p {
+
+	font-family: MontserratRegular;
+	font-size: 16px;
+	color: #424345;
+	line-height: 24px;
+}
+
+#emploi-part-droite > h3 {
+
+	font-family: MontserratBold;
+	font-size: 28px;
+
+
+}
+
+#emploi-part-droite > ul {
+
+	padding: 0 0 0 40px;
+	font-size: 16px;
+	line-height: 24px;
+	color: #424345;
+	font-family: MontserratRegular;
+
+}
+
+#postulez-en-ligne {
+
+	height: 54px;
+	width: 506px;
+	background-color:#da4450;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+	font-family: MontserratBold;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+	color: white;
+	margin-top: 15px;
+
+}
+
+#postulez-en-ligne:hover {
+
+	height: 54px;
+	width: 506px;
+	background-color:#f1f0f3;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+	font-family: MontserratBold;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+	color: black;
+	border: solid 2px #da4450;
+	margin-top: 15px;
+	
+
+}
+
+/* EMPLOIS - PART 1 FIN */
+
+
+/* EMPLOIS - PART 2 DEBUT */
