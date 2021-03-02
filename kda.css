@@ -162,6 +162,7 @@ li {
 	text-decoration: none;
 	margin-top: 50px;
 	
+	
 
 }
 
@@ -211,6 +212,7 @@ li {
 	margin-left: 55px;
 	height: 40px;
 	padding-bottom: 100px;
+	opacity: 0.5;
 
 }
 
@@ -240,17 +242,17 @@ li {
 
 #texaf-campus-image{
 	border-radius: 20px;
-	height: 500px;
-	width: 650px;
-	margin: 0 0 0 -100px;
+	height: 390px;
+	width: 520px;
+	margin: 0 0 0 -65px;
 }
 
 #Kda-cohorte-2021 {
 
-	margin: 0 0 -50px -350px;
+	margin: -200px 0 0px 200px;
 	border-radius: 20px;
-	width: 400px;
-	height: 300px;
+	width: 346px;
+	height: 260px;
 }
 
 
@@ -260,7 +262,7 @@ li {
 
 #la-div-des-logos-rouges {
 
-	width: 55%;
+	width: 50%;
 	height: 100%;
 
 	display: flex;
@@ -298,6 +300,7 @@ li {
 	flex-direction: row;
 	margin-left: 160px;
 	margin-top: 50px;
+	
 
 }
 
@@ -813,6 +816,7 @@ text-align: center;
 	width: 100%;
 	background-color: #ffffff;
 	padding-bottom: 100px;
+	
 
 }
 
@@ -831,15 +835,17 @@ text-align: center;
 
 
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-around; 
 	font-size: 28px;
 	font-family: MontserratBold;
-
-	
-	}
+	width: 1250px;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+}
 
 #premier-block {
-	width: 60%;
+	width: 50%;
 
 }
 
@@ -860,7 +866,7 @@ text-align: center;
 
 .row {
 	
-	padding: 30px;
+	padding: 30px 5px 30px 0px;
 	background-color: #f1f0f3;
 	display: flex;
 	flex-direction: row;
@@ -933,7 +939,7 @@ margin-right: 50px;
 
 
 #deuxieme-block {
-	width: 35%;
+	width: 40%;
 }
 
 #deuxieme-block > h3 {
@@ -958,7 +964,8 @@ margin-right: 50px;
 #cadre-interieur-block2 {
 
 	background-color: #dfdee1;
-	margin: 40px;padding: 20px;
+	margin: 40px;
+	padding: 20px;
 	height: 250px;
 	border-radius: 20px;
 	
@@ -972,7 +979,6 @@ margin-right: 50px;
 	width: 90%;
 	height: 90%;
 	line-height: 31px;
-	
 	margin-top: 35%;
 	margin-left: 50%;
 	position: relative;
@@ -1016,7 +1022,6 @@ margin-right: 50px;
 #div-des-quatres-logos{
 
 	display: flex;
-	display: flex;
 	justify-content: center;
 	flex-direction: row;
 	justify-content: space-evenly;
@@ -1024,6 +1029,8 @@ margin-right: 50px;
 	margin-left: 50%;
 	position: relative;
 	transform: translateX( -50%);
+	
+	width:90%;
 }
 
 .block-du-logo {
@@ -1032,14 +1039,15 @@ margin-right: 50px;
 
 .block-du-logo > .bordure-image  {
 
-	width: 300px;
+	width: 250px;
 	
 }
 
 #sept-logo {
 	display: flex;
-	flex-direction: row;
-		justify-content: space-evenly;
+	flex-direction: column;
+	justify-content: space-evenly;
+
 }
 
 
@@ -1051,7 +1059,17 @@ margin-right: 50px;
 	padding-top: 30px;
 	color: white;
 	text-align: center;
+	width: 280px;
 	
+}
+
+.bordure-image {
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	
+
 }
 
 .bordure {
@@ -1060,13 +1078,64 @@ margin-right: 50px;
 	padding: 20px;
 	border: solid 1px white;
 	border-radius: 10px;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
 }
 
-.fleche {
-	height: 40px;
+#bordureunique {
+
+	padding: 20px;
+
+	border-radius: 10px;
+}
+
+
+.bordure2 {
+
+	height: 17px;
+	width: 34px;
+	
+	padding-top: 33px;
+	padding-left: 22px;
+	padding-right: 22px;
+	padding-bottom: 33px;
+	border: solid 1px white;
+	border-radius: 10px;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+
+}
+
+#fleche1 {
+	height: 50px;
+	width: 100px;
+
+}
+
+.fleche2 {
+	height: 20px;
 	width: 40px;
 	padding: 20px;
+	margin-left: -80px;
+	margin-top: 10px;
+	
 }
+
+#sept-texte-logo1 {
+	
+}
+#sept-texte-logo2 {
+
+}
+#sept-texte-logo3 {
+
+}
+#sept-texte-logo4 {
+
+}
+
 
 #button-de-fin-sept {
 
@@ -1366,7 +1435,10 @@ margin-right: 50px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
-	
+	width: 1300px;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
 
 }
 
@@ -1384,14 +1456,14 @@ margin-right: 50px;
 
 
 	height: 271px;
-	width: 280px;
+	
+	
 }
 .block-des-images1 > img {
 
 
-	height: 168px;
-	width: 250px;
-
+	height: 170px;
+	width: 290px;
 	border-radius: 20px;
 }
 
@@ -1406,7 +1478,6 @@ margin-right: 50px;
 	transform: translateX(-50%);
 	border-radius: 20px;
 	padding-top: 10px;
-
 }
 
 
@@ -1417,12 +1488,17 @@ margin-right: 50px;
 	justify-content: space-evenly;
 	padding-top: 20px;
 	padding-bottom: 150px;
+	width: 1300px;
+	margin-left: 50%;
+	position: relative;
+	transform: translateX(-50%);
+	
 }
 
 .modif-iframe {
 
 	height: 430px;
-	width: 270px;
+	width: 290px;
 
 }
 
@@ -1504,7 +1580,7 @@ margin-left: 80px;
 
 }
 
-#reseaux-sociaux > ul > li:nth-child(2), li:nth-child(3){
+.reseaux2-3{
 
 	margin-left: 30px;
 	
