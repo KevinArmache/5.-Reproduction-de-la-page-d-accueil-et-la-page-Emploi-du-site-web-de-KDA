@@ -1442,7 +1442,7 @@ margin-right: 50px;
 	width: 100%;
 	height: 100%;
 	background-color: #2d2d2d;
-	padding: 160px 0px 96px;
+	padding: 160px 0px 96px !important;
 	display: flex;
 
 }
@@ -1457,14 +1457,14 @@ margin-right: 50px;
 
 #part-gauche > address {
 
-	font-size: 25px;
+	font-size: 22px;
 	font-family: RobotoRegular;
 	height: 229px;
-	width: 650px;
+	width: 640px;
 	line-height: 33px;
-	
 	font-style: normal;
-	margin-left: 20px;
+	margin-left: 80px;
+	padding-bottom: 20px;
 	
 }
 
@@ -1475,7 +1475,7 @@ font-size: 25px;
 font-family: RobotoRegular;
 line-height: 33px;
 text-decoration: none;
-margin-left: 20px;
+margin-left: 80px;
 
 }
 
@@ -1490,18 +1490,26 @@ margin-left: 20px;
 	text-decoration: none;
 	border-bottom: solid 3px #da4347;
 	transition: 1s solid ease;	
-	margin-left: 20px;
+	margin-left: 80px;
 
 	
 }
 
-#reseaux-sociaux {
+#reseaux-sociaux > ul {
 
+	display: flex;
 	padding-top: 50px;
-	
-
+	margin-left: 80px;
+	list-style-type: none;	
 
 }
+
+#reseaux-sociaux > ul > li:nth-child(2), li:nth-child(3){
+
+margin-left: 25px;
+
+}
+
 
 #part-droite {
 
