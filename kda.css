@@ -1815,4 +1815,293 @@ margin-left: 20px;
 /* EMPLOIS - PART 1 FIN */
 
 
-/* EMPLOIS - PART 2 DEBUT */
+/* EMPLOIS - LAST-PART */
+
+#last-part {
+	height: 100%;
+	width: 100%;	
+	background-color: #1d1b25;
+	padding-bottom: 100px;
+}
+
+#last-part > h2 {
+	
+	padding-top: 100px;
+	font-family: MontserratBold;
+	font-size: 48px;
+	color: #e1e1e2;
+	padding-bottom: 50px;
+	text-align: center;
+
+}
+
+#last-part > p {
+	
+
+	font-family: MontserratBold;
+	font-size: 16px;
+	color: #e1e1e2;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+#last-part > p  > #span1{
+	
+
+	font-family: MontserratBold;
+	font-size: 16px;
+	color: #da4450;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+#last-formulaire > form{
+	
+	display: flex;
+	justify-content: center;
+}
+
+#last-formulaire-gauche {
+	height: 280px;
+	width: 560px;
+	padding: 0px 15px;
+	
+}
+
+#last-formulaire-gauche > label{
+
+	font-family: RobotoRegular;
+	font-size: 16px;
+	color: #e0e0e1;
+	
+
+}
+
+#last-formulaire-gauche > select{
+
+	height: 38px;
+	width: 570px;
+
+	outline: none;
+
+	border: none;
+	background-color: white;
+	color: #495057;
+	font-size: 16px;
+
+}
+
+#last-formulaire-gauche > select:focus{
+
+	height: 38px;
+	width: 570px;
+	border: solid 2px #562842;
+	padding: 6px 28px 6px 12px;
+	font-size: 16px;
+	color: #495057;
+
+
+}
+
+#last-formulaire-gauche > input{
+
+	height: 38px;
+	width: 550px;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	color: #495057;
+	margin-top: 10px;
+	padding-left : 10px;
+	padding-right: 10px;
+
+}
+
+#last-formulaire-gauche > input:focus{
+
+	height: 38px;
+	height: 38px;
+	width: 550px;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	color: #495057;
+	margin-top: 10px;
+	padding-left : 10px;
+	padding-right: 10px;
+	border: solid 2px #562842;
+}
+
+/* */
+
+
+#last-formulaire-droite {
+	height: 280px;
+	width: 600px;
+	padding: 0px 15px;
+	
+}
+
+#last-formulaire-droite > label{
+
+	font-family: RobotoRegular;
+	font-size: 16px;
+	color: #e0e0e1;
+
+}
+
+#last-formulaire-droite > select{
+
+	height: 38px;
+	width: 570px;
+
+	outline: none;
+
+	border: none;
+	background-color: white;
+	color: #495057;
+	font-size: 16px;
+
+}
+
+#last-formulaire-droite > select:focus{
+
+	height: 38px;
+	width: 570px;
+	border: solid 2px #562842;
+	padding: 6px 28px 6px 12px;
+	font-size: 16px;
+	color: #495057;
+
+
+}
+
+#last-formulaire-droite > input{
+
+	height: 38px;
+	width: 550px;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	color: #495057;
+	margin-top: 10px;
+	padding-left : 10px;
+	padding-right: 10px;
+
+}
+
+#last-formulaire-droite > input:focus{
+
+	height: 38px;
+	height: 38px;
+	width: 550px;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	color: #495057;
+	margin-top: 10px;
+	padding-left : 10px;
+	padding-right: 10px;
+	border: solid 2px #562842;
+}
+
+#type-de-demande {
+	font-size: 16px;
+	font-family: RobotoRegular;
+	color: #e0e0e1;
+	margin-left: 77px;
+	
+}
+
+#last-formulaire-en-bas {
+	margin-top: 10px;
+	height: 38px;
+	width: 1170px;
+	margin-left: 75px;
+}
+
+#texteareaform {
+	height: 62px;
+	width: 1145px;
+	padding: 6px 12px;
+	margin-left: 75px;
+	margin-top: 10px;
+	font-family: RobotoRegular;
+	font-size: 16px;
+}
+
+#dernier-paragraphe {
+	margin-top: 10px;
+	height: 96px;
+	width: 1178px;
+	margin-left: 75px;
+	font-size: 16px;
+	line-height: 24px;
+	font-family: MontserratRegular !important;
+	text-align: left !important;
+}
+
+#lastmodifpetitmot {
+
+	font-family: MontserratRegular !important;
+	color: #da4450;
+
+
+}
+
+#lastmodifpetitmot:hover {
+
+	border-bottom: solid 2px #da4450;
+
+}
+
+#last-button {
+	
+	
+
+		height: 58px;
+		width: 124px;
+		background-color:#da4450;
+		display: flex;
+		margin-left: 75px;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		border-radius: 20px;
+		font-family: RobotoRegular;
+		text-decoration: none;
+		font-size: 16px;
+		border: none;
+		color: white;
+		font-weight: 700;
+		
+	
+	
+}
+
+#last-button:hover {
+	
+	
+
+	height: 58px;
+	width: 124px;
+	background-color: #1d1b25;
+	display: flex;
+	margin-left: 75px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 20px;
+	font-family: RobotoRegular;
+	text-decoration: none;
+	font-size: 16px;
+	border: solid 2px #da4450;;
+	color: white;
+	font-weight: 700;
+	padding-bottom: 100px;
+	
+
+
+}
