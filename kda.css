@@ -64,19 +64,16 @@ nav {
 }
 
 #Menu {
-	width: 100%;
-	float: right;
-}
-#Menu > ul {
 	display: flex;
+	flex-direction: row !important;
 	justify-content: space-around;
 	margin-left: 750px;
 	margin-top: 25px;
-	color: white;
 	padding: 5px;
-	list-style-type: none;
 	font-size: 20px;
 	font-weight: bold;
+	width: 100%;
+	float: right;
 }
 
 #Menu > ul > li:hover {
@@ -84,7 +81,7 @@ nav {
     transition: 1s solid ease;
 }
 
-#Menu > ul > a {
+#Menu > a {
 
 	text-decoration: none;
 	color: white;
@@ -1130,11 +1127,10 @@ margin-right: 50px;
 	
 }
 
-#sept-logo {
+.sept-logo {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-
 }
 
 
@@ -1195,7 +1191,7 @@ margin-right: 50px;
 
 }
 
-#fleche1 {
+.fleche1 {
 	height: 50px;
 	width: 100px;
 
@@ -2029,7 +2025,7 @@ margin-left: 80px;
 
 }
 
-#last-formulaire > form{
+#last-formulaire {
 	
 	display: flex;
 	justify-content: center;
