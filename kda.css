@@ -262,7 +262,7 @@ li {
 
 #la-div-des-logos-rouges {
 
-	width: 50%;
+	width: 60%;
 	height: 100%;
 
 	display: flex;
@@ -272,7 +272,7 @@ li {
 
 #la-div-des-logos-rouges > h1 {
 	font-family: MontserratBold;
-	margin-right: 55px;
+
 	font-size: 40px;
 	height: 40px;
 	color: #424345;
@@ -283,12 +283,13 @@ li {
 	
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
+	justify-content: space-between;
+
 }
 
 #les-deux-logo1  {
 
-	
+	width: 45%;
 	
 }
 
@@ -316,6 +317,12 @@ text-align: center;
 
 	border-bottom: solid 4px #ec5940;
 	padding-bottom: 50px;
+}
+
+#les-deux-logo2 {
+
+	width: 45%;
+
 }
 
 
@@ -365,12 +372,92 @@ text-align: center;
 
 }
 
+#orange-logo {
+	height: 80px;
+	width: 80px;
+}
+
+#deloitte-logo {
+
+	height: 30px;
+	width: 160px;
+}
+
+#ey-logo {
+
+	height: 80px;
+	width: 138px;
+}
+#gsma-logo {
+
+	height: 80px;
+	width: 152px;
+}
+
+#digitalafr-logo {
+	height: 76px;
+	width: 160px;
+}
+
+#ambassade-logo {
+	height: 75px;
+	width: 160px;
+}
+
+#texaf-logo {
+	height: 80px;
+	width: 72px;
+
+}
+
+
+#ministere-logo {
+	height: 80px;
+	width: 160px;
+}
+
+
+#twb-logo {
+	height: 80px;
+	width: 138px;
+}
+
+#banque-mondiale-logo {
+	height: 32px;
+	width: 155px;
+}
+#the-economist-logo {
+	height: 49px;
+	width: 160px;
+}
+#facebook-logo {
+	height: 32px;
+	width: 155px;
+}
 #logos-partenaires {
 
-	
 	display: flex;
 	flex-direction: row;
 	overflow: hidden;
+	padding-bottom: 100px;
+
+}
+
+#logos-partenaires > div {
+
+	height: 200px;
+	width: 234px;
+	
+	
+
+}
+#logos-partenaires > div > img {
+
+	margin-top: 50%;
+	margin-left: 50%;
+	position: relative;
+	transform: translate(-50%, -50%);
+
 
 }
 
